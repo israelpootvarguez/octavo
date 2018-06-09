@@ -1,5 +1,4 @@
 <?php 
-print_r("expression");
 if(($l == "ES") || ($l == "Es") || ($l == "es") ){
   $txt_informacion = array(
     'miga1' =>'informacion/es',
