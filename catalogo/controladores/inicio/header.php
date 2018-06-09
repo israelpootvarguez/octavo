@@ -1,6 +1,4 @@
 <?php
-print_r("hola mundo"); 
-//////////////////////////////////
 define("DB_HOST", 	  "localhost");
 define("DB_NAME", 	  "adpromex_adpromex");
 define("DB_USER", 	  "adpromex_adprome");
@@ -174,66 +172,39 @@ $DATOS_EMPRESA = consultarSql($sql);
 $DATOS_EMPRESA = $DATOS_EMPRESA[0];
 
 if(($l == "ES") || ($l == "Es") || ($l == "es") ){
-$textos_heder  = array(
-	'txt_telefono' => "PEDIDOS POR TELÉFONO/es", 
-	'txt_contactanos' => "CONTÁCTANOS/es",
-	'txt_cuenta' => "Mi Cuenta/es",
-	'txt_salir' => "Salir/es",
+	$textos_header  = array(
+		'txt_telefono' => "PEDIDOS POR TELÉFONO/es", 
+		'txt_contactanos' => "CONTÁCTANOS/es",
+		'txt_cuenta' => "Mi Cuenta/es",
+		'txt_salir' => "Salir/es",
 
-	'txt_salir' => "Paquetes/es",
-	'txt_salir' => "Quiénes somos/es",
-	'txt_salir' => "Contacto/es",
+		'txt_menu1' => "Paquetes/es",
+		'txt_menu2' => "Quiénes somos/es",
+		'txt_menu3' => "Contacto/es",
 
-	'txt_l1' => "Español/es",
-	'txt_l2' => "Ingles/es",
+		'txt_l1' => "Español/es",
+		'txt_l2' => "English/es",
 
-	'code_l1' => "ES",
-	'code_l2' => "EN",	
-);
+		'code_l1' => "ES",
+		'code_l2' => "EN",	
+	);
 
 }else{
-$textos_heder  = array(
-	'txt_telefono' => "PEDIDOS POR TELÉFONO/en", 
-	'txt_contactanos' => "CONTÁCTANOS/en",
-	'txt_cuenta' => "Mi Cuenta/en",
-	'txt_salir' => "Salir/en",
+	$textos_header  = array(
+		'txt_telefono' => "PEDIDOS POR TELÉFONO/en", 
+		'txt_contactanos' => "CONTÁCTANOS/en",
+		'txt_cuenta' => "Mi Cuenta/en",
+		'txt_salir' => "Salir/en",
 
-	'txt_salir' => "Paquetes/en",
-	'txt_salir' => "Quiénes somos/en",
-	'txt_salir' => "Contacto/en",
+		'txt_menu1' => "Paquetes/en",
+		'txt_menu2' => "Quiénes somos/en",
+		'txt_menu3' => "Contacto/en",
 
-	'txt_l1' => "Español/en",
-	'txt_l2' => "Ingles/en",
+		'txt_l1' => "Español/en",
+		'txt_l2' => "English/en",
 
-	'code_l1' => "ES",
-	'code_l2' => "EN",	
-);	
+		'code_l1' => "ES",
+		'code_l2' => "EN",	
+	);	
 }
-//print_r("expression");
-print_r($DATOS_EMPRESA);
-print_r($textos_heder);
-
-$telefono     = "9999-99-99-99";
-$urlContacto  = "www.google.com";
-$urlMicuenta  = "www.google.com";
-$urlCarrito   = "www.google.com";
-$urlPagar     = "www.google.com";
-
-$urlSalir = "www.google.com";
-
-$carrito = array();
-$carrito["productos"] = array();
-$carrito["productos"][0] = array('carrito_id' => '0','carrito_nombre' => 'producto1','carrito_img' => 'nada.jpg','carrito_cantidad' => '1','carrito_precio'=>'10.00');
-$carrito["productos"][1] = array('carrito_id' => '1','carrito_nombre' => 'producto2','carrito_img' => 'nada.jpg','carrito_cantidad' => '2','carrito_precio'=>'20.00');
-
-$carrito["total"] = "50";
-$carrito["cantidadTotal"] ="3";
-
-
-$menu = array();
-$menu['categorias'] = array();
-$menu['categorias'][] = array('icono' => "XD", 'nombre' => "categoria1", 'url' => "www.google.com1");  
-$menu['categorias'][] = array('icono' => "XD", 'nombre' => "categoria2", 'url' => "www.google.com1");
-$menu['categorias'][] = array('icono' => "XD", 'nombre' => "categoria3", 'url' => "www.google.com1");
-
 ?>
