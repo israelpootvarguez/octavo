@@ -32,7 +32,7 @@
   <div class="container">
     <div class="row">
         <div class="logo col-sm-4">
-          <a href="index.php"><img src="./img/logo.png" title="Vida Verde" alt="Vida Verde" /></a>
+          <a href="index.php"><img src="./img/logo.png" title="adpromex" alt="adpromex" /></a>
         </div>
         <div class="menu col-lg-8 col-md-8 col-sm-8 col-xs-12">
           <nav id="menu" class="navbar">
@@ -41,9 +41,9 @@
               </div>
               <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="#"><?= $textos_header['txt_menu1'] ?></a></li>
-                    <li><a href="#"><?= $textos_header['txt_menu2'] ?></a></li>
-                    <li><a href="#"><?= $textos_header['txt_menu3'] ?></a></li>
+                    <li><a href="http://www.adpromex.com/?r=paquetes-paquetes"><?= $textos_header['txt_menu1'] ?></a></li>
+                    <li><a href="http://www.adpromex.com/?r=informacion-informacion"><?= $textos_header['txt_menu2'] ?></a></li>
+                    <li><a href="http://www.adpromex.com/?r=contacto-contacto"><?= $textos_header['txt_menu3'] ?></a></li>
                 </ul>
               <div>
           </nav>
