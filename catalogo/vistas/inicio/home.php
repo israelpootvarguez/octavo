@@ -1,1 +1,1 @@
-<?php echo "hola mundo";?>
+<?php require_once('./catalogo/controladores/inicio/home.php'); ?>

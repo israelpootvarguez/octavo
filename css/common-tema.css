@@ -16,7 +16,8 @@
 }
 
 #top {
-	border-bottom: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 10px 0;
 }
 .common-header .section1 {
     background-color: #0e8890 !important;
