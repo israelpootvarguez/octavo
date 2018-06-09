@@ -98,8 +98,17 @@ div.required .control-label:before {
 	background-repeat: repeat-x;
 }
 
-#top-links{
-	height: 36px;
+#top-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-content {
+	margin: 0;
+}
+#top-links  ul.list-inline {
+	width: 35%;
+	margin: 0;
 }
 
 #top .btn-link, #top-links li, #top-links a {

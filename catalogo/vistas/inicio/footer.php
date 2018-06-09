@@ -1,3 +1,4 @@
+<?php require_once('./catalogo/controladores/inicio/footer.php'); ?>
 <footer>
   <div class="section1 container-fluid">
     <div class="container">

@@ -21,5 +21,4 @@ $menu['categorias'] = array();
 $menu['categorias'][] = array('icono' => "XD", 'nombre' => "categoria1", 'url' => "www.google.com1");  
 $menu['categorias'][] = array('icono' => "XD", 'nombre' => "categoria2", 'url' => "www.google.com1");
 $menu['categorias'][] = array('icono' => "XD", 'nombre' => "categoria3", 'url' => "www.google.com1");
-
 ?>
