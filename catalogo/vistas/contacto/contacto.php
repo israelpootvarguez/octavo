@@ -1,4 +1,4 @@
-  
+<?php require_once('./catalogo/controladores/contacto/contacto.php'); ?>  
 <div class="background"></div>
 <div class="container">
   <ul class="breadcrumb">

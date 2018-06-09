@@ -1,5 +1,4 @@
 <?php 
-print_r("jajajajjajajajajja");
 $sql = "SELECT pp.pacPackages_ImgBanner , ppd.pacPackagesDescriptions_NameSEO FROM pacPackages pp
 LEFT JOIN pacPackagesDescriptions ppd on(pp.pacPackages_Id = ppd.pacPackages_Id)
 LEFT JOIN sysIdioms si on(si.sysIdioms_Id = ppd.sysIdioms_Id)

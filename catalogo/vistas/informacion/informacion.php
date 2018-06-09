@@ -1,5 +1,5 @@
 
-<?php require_once('./catalogo/controladores/inf/inf.php'); ?>
+<?php require_once('./catalogo/controladores/informacion/informacion.php'); ?>
 <div class="background"></div>
 <div class="container">
   <ul class="breadcrumb">
