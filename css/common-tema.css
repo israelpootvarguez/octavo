@@ -46,8 +46,9 @@
 .common-footer {
     border-top: solid 5px #00c5b4 !important;
 }
-.common-footer .section1{
-	background-color: #0e8890 !important;
+.common-footer .section1 {
+    background-color: #0e8890 !important;
+    padding: 20px 0 10px;
 }
 
 .common-footer .section1 .information h5, 

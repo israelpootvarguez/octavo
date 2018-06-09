@@ -89,8 +89,7 @@
 
 .common-header .section4 {
     box-shadow: -2px 6px 13px -6px grey;
-    margin-top: 5px;
-    padding: 10px 0 20px;
+    padding: 10px 0 10px;
 }
 .common-header .section4 .row{
     display: flex;

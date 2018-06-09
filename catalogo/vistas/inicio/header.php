@@ -16,11 +16,16 @@
                   </ul>
                 </li>
               </ul>
-              <select class="form-control">
+              <select id="urlSelect" class="form-control" onchange="window.location = jQuery('#urlSelect option:selected').val();">
+                <option>seleccione</option>
+                <option value="http://www.adpromex.com"><?= $textos_header['txt_l1']?></option>
+                <option value="http://www.adpromex.com/?l=en"><?= $textos_header['txt_l2']?></option>
+              </select>
+              <!-- <select class="form-control">
                 <option>seleccione</option>
                 <option value="<?= $textos_header['code_l1']?>"><?= $textos_header['txt_l1']?></option>
                 <option value="<?= $textos_header['code_l2']?>"><?= $textos_header['txt_l2']?></option>
-              </select>
+              </select> -->
             </div>
          </div>
       </div>
