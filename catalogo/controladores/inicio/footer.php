@@ -26,6 +26,4 @@ if(($l == "ES") || ($l == "Es") || ($l == "es") ){
 	);
 }
 
-print_r('<br>$Textos_footer<br>');
-print_r($Textos_footer);
 ;?>

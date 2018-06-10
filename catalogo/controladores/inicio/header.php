@@ -175,7 +175,7 @@ if(($l == "ES") || ($l == "Es") || ($l == "es") ){
 	$textos_header  = array(
 		'txt_telefono' => "PEDIDOS POR TELÉFONO/es", 
 		'txt_contactanos' => "CONTÁCTANOS/es",
-		'txt_cuenta' => "Mi Cuenta/es",
+		'txt_cuenta' => "Descargar App/es",
 		'txt_salir' => "Salir/es",
 
 		'txt_menu1' => "Paquetes/es",
@@ -193,7 +193,7 @@ if(($l == "ES") || ($l == "Es") || ($l == "es") ){
 	$textos_header  = array(
 		'txt_telefono' => "PEDIDOS POR TELÉFONO/en", 
 		'txt_contactanos' => "CONTÁCTANOS/en",
-		'txt_cuenta' => "Mi Cuenta/en",
+		'txt_cuenta' => "Descargar App/en",
 		'txt_salir' => "Salir/en",
 
 		'txt_menu1' => "Paquetes/en",

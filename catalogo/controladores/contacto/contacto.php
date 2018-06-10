@@ -7,6 +7,7 @@ if(($l == "ES") || ($l == "Es") || ($l == "es") ){
 		'Nombre:' => 'Nombre:/es', 
 		'Email:' => 'Email:/es', 
 		'Pregunta' => 'Pregunta/es', 
+		'boton' => 'enviar/es', 
 	);
 }else{
 	$txt_Contacto = array(
@@ -16,6 +17,7 @@ if(($l == "ES") || ($l == "Es") || ($l == "es") ){
 		'Nombre:' => 'Nombre:/en', 
 		'Email:' => 'Email:/en', 
 		'Pregunta' => 'Pregunta/en', 
+		'boton' => 'enviar/en', 
 	);
 }
 

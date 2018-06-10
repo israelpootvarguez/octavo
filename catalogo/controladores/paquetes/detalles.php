@@ -24,8 +24,6 @@ WHERE (
 )";
 
 $productos = consultarSql($sql);
-if(count($productos) == 0){header('Location: http://www.adpromex.com'); print_r("fallo");}else{
 print_r($productos);  
-}
 
 ?>
