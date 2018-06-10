@@ -3,22 +3,22 @@
 <div class="container">
   <ul class="breadcrumb">
     <li><a href="#"><i class="fa fa-home"></i></a></li>
-    <li><a href="#">Contacto</a></li>
+    <li><a href="#"><?=$txt_Contacto['miga1']?></a></li>
   </ul>
   <div class="row">                
     <div id="content" class="col-sm-9">      
-      <h1>Contacto</h1>
+      <h1><?=$txt_Contacto['miga1']?></h1>
       <div class="panel panel-default">
         <div class="panel-body">
           <div class="row">
-            <div class="col-sm-3"><strong>Adpromex</strong><br>
-              <address>C 12 No. 345 entre 67 y 89, Fracc. Algún lugar, Mérida, Yucatán, México.</address>
+            <div class="col-sm-3"><strong><?=$DATOS_EMPRESA['sysEnterprise_Name']?></strong><br>
+              <address><?=$DATOS_EMPRESA['sysEnterprise_Address']?></address>
             </div>
-            <div class="col-sm-3"><strong>Tel/Cel</strong><br>
-              123456789<br><br>
+            <div class="col-sm-3"><strong><?=$txt_Contacto['telefono']?></strong><br>
+            <?=$DATOS_EMPRESA['sysEnterprise_Phone']?><br><br>
             </div>
-            <div class="col-sm-3"><strong>Horarios</strong><br>
-              De Lunes a Viernes de 7 a.m. a 9 p.m.<br>
+            <div class="col-sm-3"><strong><?=$txt_Contacto['Horarios']?></strong><br>
+            <?=$DATOS_EMPRESA['sysEnterprise_Schedules']?><br>
               <br />
             </div>
           </div>
@@ -26,21 +26,20 @@
       </div>
       <form action="#" class="form-horizontal">
         <fieldset>
-          <legend>Forma de Contacto</legend>
           <div class="form-group required">
-            <label class="col-sm-2 control-label" for="input-name">Nombre:</label>
+            <label class="col-sm-2 control-label" for="input-name"><?=$txt_Contacto['Nombre:']?></label>
             <div class="col-sm-10">
               <input type="text" name="name" value="" id="input-name" class="form-control" />
             </div>
           </div>
           <div class="form-group required">
-            <label class="col-sm-2 control-label" for="input-email">Email:</label>
+            <label class="col-sm-2 control-label" for="input-email"><?=$txt_Contacto['Email:']?></label>
             <div class="col-sm-10">
               <input type="text" name="email" value="" id="input-email" class="form-control" />
             </div>
           </div>
           <div class="form-group required">
-            <label class="col-sm-2 control-label" for="input-enquiry">Pregunta:</label>
+            <label class="col-sm-2 control-label" for="input-enquiry"><?=$txt_Contacto['Pregunta']?></label>
             <div class="col-sm-10">
               <textarea name="enquiry" rows="10" id="input-enquiry" class="form-control"></textarea>
             </div>
@@ -48,7 +47,7 @@
         </fieldset>
         <div class="buttons">
           <div class="pull-right">
-            <input class="btn btn-primary" type="submit" value="Enviar" />
+            <input class="btn btn-primary" type="submit" value="<?=$txt_Contacto['boton']?>" />
           </div>
         </div>
       </form>
