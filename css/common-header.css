@@ -22,10 +22,12 @@
     margin: 5px;
 }
 
-#top .btn-link, #top-links li, #top-links a,
-#top .btn-link, #top-links li, #top-links a:hover {
-  color: white;
-  text-shadow: 0 0px 0 #fff;
+#top .btn-link, #top-links li, #top-links a, #top .btn-link, #top-links li, #top-links a:hover {
+    color: white;
+    text-shadow: 0 0 0 #fff;
+    padding: 0;
+    vertical-align: text-bottom;
+    width: 43%;
 }
 
 #top .btn-link, #top-links li, #top-links a, #top .btn-link, #top-links li, #top-links a:hover {

@@ -47,6 +47,10 @@ $route = './catalogo/vistas/inicio/home.php';
 
   <!-- bootbox -->
   <script src="./lib/bootbox/bootbox.js" type="text/javascript"></script>
+
+  <!-- owl carousel-->
+  <link rel="stylesheet" href="./lib/owlcarousel2/owl.carousel.css">
+  <script src="./lib/owlcarousel2/owl.carousel.min.js" type="text/javascript"></script>
   
   <!-- font-awesome -->
   <link href="./lib/font-awesome/css/font-awesome.css" rel="stylesheet" />
@@ -55,6 +59,10 @@ $route = './catalogo/vistas/inicio/home.php';
   <link href="./css/common.css" rel="stylesheet"/>
   <link href="./css/common-header.css" rel="stylesheet">
   <link href="./css/common-tema.css" rel="stylesheet">
+  <link href="./css/common-home.css" rel="stylesheet">
+  <link href="./css/information-contact.css" rel="stylesheet">
+  <link href="./css/information-information.css" rel="stylesheet">
+  <link href="./css/paquetes-paquetes.css" rel="stylesheet">
   <link href="./css/common-footer.css" rel="stylesheet">
 
 </head>

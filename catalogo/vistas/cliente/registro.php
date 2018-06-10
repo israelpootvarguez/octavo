@@ -1,7 +1,4 @@
-IE]><![endif]-->
-<!--[if IE 8 ]><html dir="ltr" lang="es" class="ie8"><![endif]-->
-<!--[if IE 9 ]><html dir="ltr" lang="es" class="ie9"><![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!-->
+<?php require_once('./catalogo/controladores/cliente/registro.php'); ?>
 <html dir="ltr" lang="es">
 <!--<![endif]-->
 <head>

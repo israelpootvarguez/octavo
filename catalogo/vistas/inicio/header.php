@@ -7,15 +7,7 @@
          </div>
          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 form-group user-content">
             <div id="top-links" class="nav">
-              <ul class="list-inline">
-                <li class="dropdown">
-                  <a href="<?= $urlMicuenta ?>" title="Mi Cuenta" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <span class="hidden-xs hidden-sm hidden-md">Mi Cuenta</span> <span class="caret"></span></a>
-                  <ul class="dropdown-menu dropdown-menu-right">
-                    <li><a href="<?= $urlMicuenta?>">Mi Cuenta</a></li>
-                    <li><a href="<?= $urlSalir?>">Salir</a></li>
-                  </ul>
-                </li>
-              </ul>
+              <a href="http://www.adpromex.com/?r=cliente-registro" ><span class="hidden-xs hidden-sm hidden-md"><?=$textos_header['txt_cuenta']?></span></a>
               <select id="urlSelect" class="form-control" onchange="window.location = jQuery('#urlSelect option:selected').val();">
                 <option>seleccione</option>
                 <option value="http://www.adpromex.com"><?= $textos_header['txt_l1']?></option>

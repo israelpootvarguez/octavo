@@ -1,3 +1,4 @@
+<?php require_once('./catalogo/controladores/paquetes/detalles.php'); ?>
 <!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <!--[if IE 8 ]><html dir="ltr" lang="es" class="ie8"><![endif]-->
