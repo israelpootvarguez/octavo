@@ -5,6 +5,7 @@
   <ul class="breadcrumb">
     <li><a href="#"><i class="fa fa-home"></i></a></li>
     <li><a href="#"><?=$txt_informacion["miga2"]?></a></li>
+
   </ul>
   <div class="row">                
 
@@ -15,13 +16,13 @@
     <aside id="column-right" class="col-sm-3 hidden-xs">
         <div class="sidebar">
             <ul class="nav nav-tabs nav-stacked">
-                <li><a href="http://www.adpromex.com/?r=informacion-informacion">Quiénes somos</a></li>
-                <li><a href="http://www.adpromex.com/?r=informacion-informacion&informacion=6">Aviso de privacidad</a></li>
-                <li><a href="http://www.adpromex.com/?r=informacion-informacion&informacion=7">Historia</a></li>
-                <li><a href="http://www.adpromex.com/?r=informacion-informacion&informacion=1">Formas de pago</a></li>
-                <li><a href="http://www.adpromex.com/?r=informacion-informacion&informacion=2">Tips</a></li>
-                <li><a href="http://www.adpromex.com/?r=informacion-informacion&informacion=3">Preguntas frecuentes</a></li>
-                <li><a href="http://www.adpromex.com/?r=contacto-contacto">Contacto</a></li>
+
+                <li><a href="http://www.adpromex.com/?r=informacion-informacion&informacion=5"><?=$Textos_menu_lateral['txt5']?></a></li>
+                <li><a href="http://www.adpromex.com/?r=informacion-informacion&informacion=6"><?=$Textos_menu_lateral['txt6']?></a></li>
+                <li><a href="http://www.adpromex.com/?r=informacion-informacion&informacion=1"><?=$Textos_menu_lateral['txt1']?></a></li>
+                <li><a href="http://www.adpromex.com/?r=informacion-informacion&informacion=2"><?=$Textos_menu_lateral['txt2']?></a></li>
+                <li><a href="http://www.adpromex.com/?r=informacion-informacion&informacion=3"><?=$Textos_menu_lateral['txt3']?></a></li>
+                <li><a href="http://www.adpromex.com/?r=contacto-contacto"><?=$Textos_menu_lateral['txt4']?></a></li>
             </ul>
         </div>  
     </aside>
