@@ -39,8 +39,8 @@ if(($l == "ES") || ($l == "Es") || ($l == "es") ){
   );
 }
 
-print_r('<br>$Textos_footer<br>');
-print_r($Textos_footer);
-print_r('<br>$texto_registro<br>');
-print_r($texto_registro);
+//print_r('<br>$Textos_footer<br>');
+//print_r($Textos_footer);
+//print_r('<br>$texto_registro<br>');
+//print_r($texto_registro);
 ?>

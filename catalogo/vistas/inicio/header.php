@@ -3,7 +3,7 @@
    <div class="container">
       <div class="row">
          <div class="send_free col-lg-8 col-md-8 col-sm-8 col-xs-12">
-            <b><?= $textos_header['txt_telefono']?></b> <?=$DATOS_EMPRESA['sysEnterprise_Phone']?> o <a href="http://www.adpromex.com/?r=contacto-contacto"><u><?= $textos_header['txt_contactanos']?></u></a>
+            <b><?= $textos_header['txt_telefono']?></b> <?=$DATOS_EMPRESA['sysEnterprise_Phone']?></a>
          </div>
          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 form-group user-content">
             <div id="top-links" class="nav">

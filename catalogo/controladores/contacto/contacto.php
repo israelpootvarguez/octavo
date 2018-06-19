@@ -21,10 +21,10 @@ if(($l == "ES") || ($l == "Es") || ($l == "es") ){
 	);
 }
 
-print_r('<br>$DATOS_EMPRESA<br>');
-print_r($DATOS_EMPRESA);
-print_r('<br>$txt_Contacto<br>');
-print_r($txt_Contacto);
-print_r('<br>$Textos_menu_lateral<br>');
-print_r($Textos_menu_lateral);
+//print_r('<br>$DATOS_EMPRESA<br>');
+//print_r($DATOS_EMPRESA);
+//print_r('<br>$txt_Contacto<br>');
+//print_r($txt_Contacto);
+//print_r('<br>$Textos_menu_lateral<br>');
+//print_r($Textos_menu_lateral);
 ?>

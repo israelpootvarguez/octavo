@@ -18,7 +18,9 @@ WHERE (
   and pp.pacPackages_IsPublic = 1
 )";
 
-$productos = consultarSql($sql);
-
-print_r($productos);
+$paquetes = consultarSql($sql);
+//print_r('<br>$productos<br>');
+//print_r($productos);
+//print_r('<br>txt_informacion<br>');
+//print_r($txt_informacion);
 ?>

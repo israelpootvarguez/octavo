@@ -4,12 +4,12 @@ $id = tomarParametro("id","GET",NULL);
 //pacPackagesDescriptions_NameSEO
 
 if(($l == "ES") || ($l == "Es") || ($l == "es") ){
-  $txt_informacion = array(
+  $txt_detalles = array(
     'miga1' =>'paquetes/es',
     'miga2' =>'paquetes/es',
   );
 }else{
-  $txt_informacion = array(
+  $txt_detalles = array(
     'miga1' =>'paquetes/en',
     'miga2' =>'paquetes/en',
   );
@@ -24,6 +24,5 @@ WHERE (
 )";
 
 $productos = consultarSql($sql);
-print_r($productos);  
-
+$paquete = $productos[0];
 ?>

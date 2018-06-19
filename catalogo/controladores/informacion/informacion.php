@@ -44,10 +44,10 @@ if(isset($_GET["informacion"])){
     if(($l == "ES") || ($l == "Es") || ($l == "es") ){$txt_informacion['miga2'] = "mision y vision/es";}else{$txt_informacion['miga2'] = "mision y vision/en";}
 }
 
-print_r('<br>$txt_informacion<br>');
-print_r($txt_informacion);
-print_r('<br>$Textos_menu_lateral<br>');
-print_r($Textos_menu_lateral);
-print_r('<br>$contenido<br>');
-print_r($contenido);
+//print_r('<br>$txt_informacion<br>');
+//print_r($txt_informacion);
+//print_r('<br>$Textos_menu_lateral<br>');
+//print_r($Textos_menu_lateral);
+//print_r('<br>$contenido<br>');
+//print_r($contenido);
 ?> 
